@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header id="menu" class="menu_container flex"> <!-- Adicione aqui as CLASSES -->
+        <div class="menu_content"> <!-- Adicione aqui as CLASSES -->
+            <a href="#">Landing Page</a>
+
+            <nav>
+                <ul class="menu_lista flex"> <!-- Adicione aqui as CLASSES -->
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contate-me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="home_container"> <!-- Adicione aqui as CLASSES -->
+            <article id="home-texto" class="home_content"> <!-- Adicione aqui as CLASSES -->
+                <h4>Bem Vindo ao Universo Felino</h4>
+                <h1>Os gatos são a personificação da elegância e do mistério.</h1>
+                <p>Nostrum modi so sequi. Nostrum incidunt so aperiam so fugiat so corporis. Inventore perspiciatis unde
+                    quisquam yet anim yet natus. Ipsum exercitationem and totam or exercitationem. Nequeporro laboriosam
+                    esse cillum. Sequi eu, or nostrud iste and ab, architecto. Illum proident yet doloremque yet
+                    architecto. Incididunt beatae yet nostrum. Aperiam velitesse ipsum adipisicing yet aspernatur or
+                    cupidatat. Exercitation cillum ipsam for sequi and dolores lorem so ex. Natus labore. Quasi dolores
+                    or ab yet cupidatat and ipsum. Mollit magni nostrum so doloremque aute. In. Nulla ipsam and ipsam,
+                    consequatur. Magni aliquid for magnam but ex yet architecto si yet suscipit. Eaque adipisicing yet
+                    nesciunt so consequuntur and dolore. Consequuntur quis but cupidatat. Magnam aperiam so enim,
+                    dolorem. Id commodi dolore dolor tempor aliquip but quae. Beatae laborum.</p>
+
+                <a class="btn" target="_blank" href="https://github.com/SthefayBastos">
+                    <!-- Adicione aqui as CLASSES -->
+                    Explore
+                </a>
+            </article>
+            <article id="home-imagem" class="home_content"> <!-- Adicione aqui as CLASSES -->
+                <img class="home_content_img" src="./assets/cat_astronaut.svg" alt="Gatinho Astronauta Com um Planeta ">
+                <!-- Adicione aqui as CLASSES -->
+            </article>
+        </section>
+        <section id="sobre" class="sobre_container"> <!-- Adicione aqui as CLASSES -->
+            <img src="https://avatars.githubusercontent.com/u/112263332?v=4"
+                alt="Foto do Perfil do Github - Sthefany Sousa">
+            <article id="sobre-texto"> <!-- Adicione aqui as CLASSES -->
+                <h1>Quem sou eu?</h1>
+                <p>
+                    Voluptatem ad ullam but laboris and consequat but quis. Nostrum aliqua. Laboris. Ipsam laboriosam
+                    and quam or laboriosam veritatis and veniam. Duis quis. Aspernatur sit, and dicta yet fugiat lorem
+                    yet magnam cupidatat. Eum quia for rem laboriosam inventore fugiat, and esse. Incididunt aliquid yet
+                    fugiat. Cupidatat.
+                </p>
+                <div id="sobre-github" class="sobre_github flex"> <!-- Adicione aqui as CLASSES -->
+                    <a class="btn" href="https://github.com/SthefayBastos">Github</a>
+
+                </div>
+                /article>
+        </section>
+
+        <section id="contato" class="contato_container"> <!-- Adicione aqui as CLASSES -->
+            <article id="contato-texto" class="contato_content"> <!-- Adicione aqui as CLASSES -->
+                <h4>Me Contate</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi similique esse fuga necessitatibus,
+                    iusto alias eius perferendis qui iste minima blanditiis repellendus distinctio dolor obcaecati
+                    aliquid quod quidem incidunt quibusdam!</p>
+                <div id="redes-sociais" class="social_container flex"> <!-- Adicione aqui as CLASSES -->
+                    <a href="">
+                        <img class="social_icon" src="https://img.icons8.com/ios/500/linkedin.png"
+                            alt="Logo do LinkedIn" /> <!-- Adicione aqui as CLASSES -->
+                    </a>
+                    <a href="">
+                        <img class="social_icon" src="https://img.icons8.com/ios/500/github--v1.png"
+                            alt="Logo do Github" /> <!-- Adicione aqui as CLASSES -->
+                        </a>
+                        <a href="">
+                            <img class="social_icon" src="https://img.icons8.com/ios/500/instagram-new--v1.png"
+                                alt="Logo do Instagram" />  <!-- Adicione aqui as CLASSES -->
+                        </a>
+                    </div>
+                </article>
+                <form action="" method="POST">
+                    <label for="nome">Nome: </label>
+                    <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
+    
+                    <label for="email">Email: </label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+    
+                    <label for="subject">Assunto: </label>
+                    <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+    
+                    <label for="message">Mensagem: </label>
+                    <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+    
+                    <button class="btn" type="submit">Enviar</button> <!-- Adicione aqui as CLASSES -->
+                </form>
+            </section>
+        </main>
+
+        <footer class="flex"> <!-- Adicione aqui as CLASSES -->
+            Feito por Sthefany Sousa - 2024
+        </footer>
+    
+    </body>
+    
+    </html>
