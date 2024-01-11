@@ -256,6 +256,7 @@ h4 {
 .sobre_container p {
     text-align: center;
     margin: 16px 0;
+    
 }
 
 .sobre_github {
@@ -364,4 +365,19 @@ footer {
     background-color: var(--purple-500);
     filter: opacity(0.9);
     font-weight: bold;
+}
+@media(max-width: 768px){
+    html {
+      font-size: 87.5%;
+    }
+    .home_container{
+        flex-direction: column;
+    }
+    .sobre_container{
+        flex-direction: column;
+
+    }
+    .btn {
+        padding: 8px;
+    }
 }
